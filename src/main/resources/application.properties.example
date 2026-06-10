@@ -9,3 +9,5 @@ spring.jpa.show-sql=true
 jwt.secret=64_character_hex_secret
 jwt.expiration=86400000
 logging.level.org.springframework.security=ERROR
+springdoc.swagger-ui.path=/swagger-ui.html
+springdoc.api-docs.path=/api-docs

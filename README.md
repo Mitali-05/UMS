@@ -182,3 +182,14 @@ All errors return a consistent JSON format:
     "timestamp": "2026-06-09T11:00:00"
 }
 ```
+
+## API Documentation
+
+Once the app is running, visit: http://localhost:9090/swagger-ui.html
+You can explore and test all endpoints directly from the browser.
+
+To test protected endpoints in Swagger:
+1. Login via `POST /api/auth/login` to get a token
+2. Click the **Authorize** button at the top right
+3. Enter `Bearer <your_token>`
+4. All subsequent requests will include the token automatically
